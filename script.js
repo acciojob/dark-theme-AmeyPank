@@ -4,7 +4,7 @@ const body = document.querySelector('body');
 
 toggle.addEventListener('click', function(){
     // this.classList.toggle('bi-moon');
-    if(this.classList.toggle('swap')){
+    if(this.classList.toggle('button_night')){
         body.style.background = 'white';
         body.style.color = 'black';
         body.style.transition = '2s';
