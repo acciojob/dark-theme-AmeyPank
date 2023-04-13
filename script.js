@@ -1,4 +1,4 @@
 function swapTheme(){
 	 var element = document.body;
-        element.classList.toggle("button_night");
+        element.classList.toggle("button_day");
 }
